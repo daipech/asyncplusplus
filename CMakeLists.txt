@@ -18,10 +18,10 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.10)
 project(Async++ C CXX)
 
-option(BUILD_SHARED_LIBS "Build Async++ as a shared library" ON)
+option(BUILD_SHARED_LIBS "Build Async++ as a shared library" OFF)
 option(USE_CXX_EXCEPTIONS "Enable C++ exception support" ON)
 if (APPLE)
 	option(BUILD_FRAMEWORK "Build a Mac OS X framework instead of a library" OFF)
